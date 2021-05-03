@@ -1,0 +1,259 @@
+header img {
+  width: 100%;
+}
+/* start navbar */
+nav {
+  background-color: rgb(1 124 194);
+}
+nav ul li {
+  margin-right: 18px;
+  color: #fff;
+  font-size: 20px;
+}
+nav ul li span {
+  border-right: 0.9px solid #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+  -webkit-box-shadow: 0 8px 6px -6px rgb(218, 214, 214);
+  -moz-box-shadow: 0 8px 6px -6px rgb(218, 214, 214);
+  box-shadow: 0 8px 6px -6px rgb(218, 214, 214);
+}
+nav form i {
+  margin-left: -33px;
+  color: rgb(1 124 194);
+}
+/* end navbar */
+
+/* start first section */
+.frst-section {
+  border: 4px solid rgb(242 242 242);
+  margin: 40px;
+  padding: 50px;
+}
+.frst-section i {
+  color: rgb(1 124 194);
+  font-size: 120px;
+}
+/* end first section */
+
+/* start cards */
+.card {
+  max-height: 150px;
+}
+.edit span {
+  border: 4px solid rgb(1 124 194);
+}
+.edit i {
+  font-size: 60px;
+  color: rgb(1 124 194);
+}
+.updating i {
+  font-size: 60px;
+  color: rgb(1 124 194);
+}
+.spinner-border {
+  margin-top: 13px;
+  color: rgb(1 124 194);
+}
+.updating span {
+  border: 4px solid rgb(240 210 46);
+}
+.search span {
+  border: 4px solid rgb(186 210 2);
+}
+.search i {
+  font-size: 60px;
+  color: rgb(1 124 194);
+}
+.progress {
+  height: 9rem;
+}
+.progress .card-body {
+  background-color: #fff;
+}
+.progress .box {
+  position: relative;
+  display: flex;
+  margin-top: -9px;
+}
+.progress .box .percent {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.progress .box .percent svg {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.progress .box .percent svg circle {
+  width: 100px;
+  height: 100px;
+  fill: none;
+  stroke-width: 3;
+  /* stroke: #000; */
+  transform: translate(5px, 5px);
+  stroke-dasharray: 400;
+  /* stroke-dashoffset: 400; */
+  stroke-linecap: round;
+}
+.progress .box .percent svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #f3f3f3;
+}
+.progress .box .percent svg circle:nth-child(2) {
+  /* stroke-dashoffset: calc(440 - (440 * 75) / 100); */
+  stroke-dasharray: 200;
+  stroke: rgb(1 124 194);
+}
+.progress .box .percent .number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 22px;
+  margin-left: -3px;
+  color: rgb(1 124 194);
+}
+.progress .box .percent .number h2 {
+  font-size: 38px;
+}
+.progress .box .percent .number h2 small {
+  font-size: 48%;
+  margin-left: -11px;
+  color: rgb(1 124 194);
+}
+.update-border span {
+  border: 4px solid rgb(255 82 82);
+}
+
+.things span {
+  border: 4px solid rgb(120 106 222);
+}
+.things i {
+  font-size: 60px;
+  color: rgb(1 124 194);
+}
+
+.reports span {
+  border: 4px solid rgb(1 177 222);
+}
+.reports i {
+  font-size: 60px;
+  color: rgb(1 124 194);
+}
+/* end cards */
+
+/* start profile */
+.container .card-header {
+  background-color: rgb(70 128 255);
+  color: #fff;
+}
+.card-header .message {
+  margin-right: 10px;
+}
+.container .card-header .close {
+  color: #fff;
+  cursor: pointer;
+}
+.card-profile {
+  max-height: 100%;
+  margin-left: 30px;
+}
+.card-profile input {
+  padding-bottom: 200px;
+  min-width: 100%;
+  border: none;
+}
+.card-profile input:focus {
+  border: none;
+  outline: none;
+}
+.card-profile input::-webkit-input-placeholder {
+  font-size: 20px;
+}
+.card-profile input::placeholder {
+  font-weight: bold;
+}
+.card-profile .card-footer .row {
+  height: 6px;
+}
+.card-profile .card-footer .row span {
+  font-size: 17px;
+}
+.card-profile .card-footer ul li {
+  margin-left: 25px;
+}
+.card-profile .card-footer .fa-image {
+  color: rgb(69 222 130);
+}
+.card-profile .card-footer .fa-youtube {
+  color: rgb(255 82 82);
+}
+.card-profile .card-footer .fa-paperclip {
+  color: rgb(70 128 255);
+}
+.card-profile .card-footer .fa-birthday-cake {
+  color: rgb(251 198 36);
+}
+.card-profile .card-footer small {
+  border: 0.5px solid #28a745;
+  padding: 2px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+.card-profile .card-footer .fa-angle-up {
+  margin-left: -20px;
+}
+.card-profile .card-footer .help {
+  margin-top: 5px;
+}
+.card-profile .card-footer .fa-poll {
+  color: rgb(255 48 81);
+}
+.card-profile .card-footer select {
+  border-radius: 7px;
+  padding: 0 7px;
+}
+.card-profile .card-footer button {
+  border-radius: 10px;
+  padding: 0 10px;
+}
+/* end profile */
+
+/* start icons */
+.container {
+  position: relative;
+}
+.container .icons {
+  position: absolute;
+  display: inline-block;
+  width: 80%;
+}
+.container .icons ul li {
+  margin-left: 25px;
+  padding-left: 40px;
+}
+.container .icons ul li span {
+  margin-top: 5px;
+}
+.container .icons ul li i {
+  font-size: 25px;
+}
+.section2 input {
+  width: 80%;
+  border: 1px solid rgb(45, 45, 236);
+  border-radius: 20px;
+}
+.section2 .comments {
+  margin-bottom: 50px;
+}
+.section2 .comments h5 {
+  color: rgb(101 67 65);
+}
+/* end icons */
